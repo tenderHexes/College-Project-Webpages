@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, you must have font-family:roboto and add a font-weight*/
+/*top part*/
+body{
+    margin: 0; 
+}
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Header */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+.headerBigText1{
+    width:100px;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    line-height: 1.0;
+    font-weight: 100 ;
+    padding-bottom: 20px;
+}
+
+.headerBackgroundEnTete{
+ background-color: rgb(46,63,81); 
+
+    display:flex;
+    justify-content: center;
+    gap:20%;
+    align-items: flex-end;
+    margin: 0;
+    padding-top: 2em;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-bottom: 1.5em;
+    height:20%; 
+}
+
+.headerTopGreen{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: right;
+    padding-top:18px;
+    margin-bottom:10px;
+}
+.headerWhiteTop{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 600;
+    color:white;
+
+   
+}
+.headerSection-2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left:40px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.headerSpace{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: lightcoral;
+}
+
+a:hover{
+    color:green;
+}
+
+a.lienTitre{
+    color:white;
+}
+
+a.lienTitre:visited{
+    color: lightcoral;
+}
+
+a.lienTitre:hover{
+    color:green;
+}
+
+/*Header: Only for small devices*/
+@media only screen and (max-width: 650px) {
+
+    /* Flex is gone */
+    .headerBackgroundEnTete{
+        background-color: rgb(46,63,81); 
+        display:block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        padding-top: 2em;
+        padding-right: 3em;
+        padding-left: 3em;
+        padding-bottom: 2em;
+        height: auto;
+    }
+
+    /* Organisation des sous-titre: Centered */
+
+    .headerSection-2{
+        display: flex;
+        flex-direction: column;
+        padding-left:0%;
+        text-align: center;
+        align-items:center;
+        font-size: 15px;
+    }
+
+    .headerWhiteTop{
+        font-size: 0.5em ;
+    }
+
+    .headerBigText1{
+        width:auto;
+        display: flex;
+        flex-direction: column; 
+        margin:0%;
+        padding:0%;
+        font-size: 2em;
+    }
+
+    
+}
+
+/*Galaxy Fold- Smallest Phone*/
+@media only screen and (max-width: 300px) {
+    .partiNavBar{
+        padding: 5px;
+        text-align: center
+
+    }
+}
+
+
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(113, 150, 113);
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+#text1{
+    text-align: center;
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#top{
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    padding-top:0;
+    border: 1px solid;
+    border-color:transparent ;
+    width: 100%;
+}
+
+/*middle part*/
+h3{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    font-weight:100
+
+}
+
+h5{
+    margin-left: 10px;
+    color: gray;
+    font-family: "Arial", sans-serif;
+    font-weight:lighter;
+    font-size: 13px;
+
+
+}
+
+p{
+    color: gray;
+    margin-left: 10px;
+}
+
+#Bienvenue{
+    font-family: "Arial", sans-serif;
+    color: rgb(113, 150, 113);
+    margin-left: 10px;
+}
+
+ul{
+    color: gray;
+    list-style-type: square;
+}
+
+.labels_left_cell{
+    font-weight: bold;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    width:200px
+}
+
+#commentaires{
+    font-weight: bold;
+    padding-top: 30px;
+    color: rgb(113, 150, 113);
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+
+}
+#acheter{
+    color:white;
+    background-color: rgb(92, 137, 137);
+    width:100px;
+    height:30px;
+
+}
+
+#wholeContainer{
+    display:flex;
+    justify-content: center;
+
+}
+
+#leftContainer{
+    flex-wrap: wrap;
+    width:1000px;
+    height:200px;
+}
+
+
+#rightContainer{
+    margin-left: 3em;
+    margin-top: 2.5%;
+}
+
+.separateurDeContenu{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+#nomInput{
+    width: 200px;
+}
+
+#telephoneInput{
+    width: 200px;
+}
+
+
+#courrielInput{
+    width: 200px;
+}
+
+@media only screen and (max-width: 650px){
+    #wholeContainer{
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    #leftContainer{
+        flex-wrap: wrap;
+        width:45%;
+        height:50%;
+    }
+     
+    #rightContainer{
+        margin-top: 7.5%;
+        width: 45%;
+        margin-left:0%;
+    }
+    
+    #nomInput{
+        width: 40%;
+    }
+    
+    #telephoneInput{
+        width: 40%;
+    }
+     
+    #courrielInput{
+        width: 40%;
+    }
+
+    #commentaireTextarea{
+        width:90%;
+    }
+
+    .labels_left_cell{
+        font-weight: bold;
+        color: rgb(113, 150, 113);
+        font-family: "Arial", sans-serif;
+        font-size: 13px;
+        width:40%;
+    }
+    
+}
+
+
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Footer */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.piedDePage {
+    background-color: rgb(46,63,81); 
+    display:flex;
+    height: 80px;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+   
+}
+
+.greenTextPiedDePage{
+   color: rgb(113, 150, 113);
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   padding-top: 10px;
+   width:200px;
+   text-align: left;
+
+}
+
+.whiteTextBox{
+   display:flex;
+   justify-content: flex-end;
+   gap:30px;
+   color:white;
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   text-align: right;
+}
+
+a.liensPiedDePage{
+   color:white;
+}
+
+a.liensPiedDePage:visited{
+   color: lightcoral;
+}
+
+a.liensPiedDePage:hover{
+   color: green;
+}
+
+/* Footer for small devices*/
+@media only screen and (max-width: 650px) {
+
+
+    /*Take off Flex for links*/
+    .whiteTextBox{
+        margin:2%;
+        font-size: 0.75em;
+        width: 96%;
+        justify-content: space-evenly;
+        gap:0%;   
+    }
+    
+    /* Make it move towards middle*/
+
+    .greenTextPiedDePage{
+        width: 100%;
+        font-size: 0.75em;
+        padding-top: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    #responsiviteGreenTextPiedDePage{
+        padding-left:2%;
+        padding-right:2%;
+        height: 50%;
+        padding:2%;
+    }
+    
+    .piedDePage{
+        display:block;
+        padding: 5%;
+        bottom:0;
+        position:static;
+        padding-top:12%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /*Take off Flex for links*/
+    .whiteTextBox{
+        font-size: 0.6em;
+        gap:0%;
+        display: flex;
+        justify-content: space-evenly;
+        width:96%;
+        margin: 2%;
+        
+    }
+    
+    /* Make it move towards middle*/
+
+    .greenTextPiedDePage{
+        width: 100%;
+        font-size: 0.6em;
+        padding-left: 0%;
+        padding-top:0%;
+    }
+
+    #responsiviteGreenTextPiedDePage{
+        padding-left:2%;
+        padding-right:2%;
+        height: 50%;
+        padding:2%;
+    }
+    
+    .piedDePage{
+        
+        display:block;
+        padding: 5%;
+        bottom:0;
+        position:static;
+    }
+
+}
+
+#spaceForTextBox1{
+
+    margin-top:20px;
+
+
+}
