@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue</title>
+    <link rel= "stylesheet" href= "Venue.css">
+    <link rel= "stylesheet" href= "enTete.css">
+    <link rel= "stylesheet" href= "piedDePage.css">
+
+
+</head>
+<body>
+
+<!--Entete-->
+    
+
+<div id="headerBackgroundEnTete" > 
+    <div class="headerBigText1" >
+        <a href="Page d'accueil.html">NOUVELLE CONFÉRENCE</a>
+    </div>
+    <div class="headerRightSection" >
+        <div class="headerTopGreen" >24-25 mars 2024 - Ottawa, ON</div>
+        <p class="headerWhiteTopContainer" >
+            <span class="headerSpaceWhiteText">
+                <a href="Page d'accueil.html">ACCUEIL</a>
+                <a href="conférenciers.html">CONFÉRENCIERS</a>
+                <a href="programme.html">PROGRAMME</a>
+                <a href="Venue.html">VENUE</a>
+                <a href="Inscription.html">INSCRIPTION</a>
+            </span>
+        </p>
+    </div>
+</div>
+
+<!--Venue-->            
+
+    <div class = "top" > 
+        <h1>Venue</h1>
+        <p class="text1"> Wafer croissant muffin biscuit marshmallow chocolate bar ice cream chocolate pie. Powder croissant sweet roll candy dessert gummi bears danish jujubes. Tootsie roll jelly-o brownie danish dessert topping dragée. Cheesecake sugar plum cookie topping wafer jujubes pudding croissant jelly. Gingerbread chupa chups croissant bear claw tootsie roll lollipop cotton candy bear claw. Croissant sugar plum oat cake halvah chupa chups dessert. Jelly marshmallow dessert jelly sugar plum. Bonbon candy gummies sweet gummi bears marshmallow danish cookie tiramisu. Donut donut candy icing bear claw candy chocolate cake jelly beans. Pastry wafer croissant jelly jelly-o sugar plum.</p>
+    </div>
+<div id = adresseMapContainer >
+  <div id="middleContainer">
+      <div  id = innerContainerCollege> Collège la Cité </div>
+      <div  id ="innerContainerAdresse" > 801 Aviation Pkwy Ottawa, ON K1K 4R3</div>
+      <div  id ="innerContainerAdresse2"><a href=" https://www.collegelacite.ca/">www.collegelacite.ca</a> (613)742-2483 </div>
+ </div>
+    
+
+  <div  id ="mapContainer"> <iframe id ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.506009943452!2d-75.62938252370212!3d45.4394584710737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0ff104b131ed%3A0x5045d05b7789c105!2zQ29sbMOoZ2UgTGEgQ2l0w6k!5e0!3m2!1sen!2sca!4v1710481316335!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+
+
+</div>
+
+<!--pied de page-->
+
+
+
+<div class="piedDePageContainer" >
+    <div> 
+        <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
+    </div>
+
+
+    <div class="whiteTextBoxPiedDePage" >
+        <div><a href="Page d'accueil.html">Accueil</a></div>
+        <div><a href="conférenciers.html">Conférenciers</a></div>  
+        <div><a href="programme.html">Programme</a></div>
+        <div><a href="Venue.html">Venue</a></div>
+        <div><a href="Inscription.html">Inscription</a></div>  
+    </div>
+
+</div>   
+
+</body>
+</html>
+
+</body>
+</html>
