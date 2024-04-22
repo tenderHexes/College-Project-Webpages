@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+   <link rel="stylesheet" href="inscription.css">
+   <link rel="stlesheet" href="inscription.js"> 
+
+</head>
+<body>
+
+<!-------------------->
+
+<!--Header-->
+
+<!-------------------->
+        <div class="partiNavBar">
+    
+            <!--Enable Flex + Background-->
+            <div class="headerBackgroundEnTete"> 
+
+                <!--Object 1: Titre-->
+                <div class="headerBigText1" >
+                    <a href="Page d'accueil.html" >NOUVELLE CONFÉRENCE</a>
+                </div>
+    
+                <!--Object 2: Information-->
+                <div class="headerSection-2" >
+                    <div class="headerTopGreen" > 24-25 mars 2024 - Ottawa, ON </div>
+    
+                    <p class="headerWhiteTop" >
+                        <span class="headerSpace" >
+                            <a href="Page d'accueil.html">ACCUEIL</a>
+                            <a href="conférenciers.html">CONFÉRENCIERS</a>
+                            <a href="programme.html">PROGRAMME</a>
+                            <a href="Venue.html">VENUE</a>
+                            <a href="Inscription.html">INSCRIPTION</a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+<!-------------------->
+
+<!--top box-->
+
+<!-------------------->
+ 
+        <div id = top > 
+            <h1 >Inscription</h1>
+            <p id="text1"> Wafer croissant muffin biscuit marshmallow chocolate bar ice cream chocolate pie. Powder croissant sweet roll candy dessert gummi bears danish jujubes. Tootsie roll jelly-o brownie danish dessert topping dragée. Cheesecake sugar plum cookie topping wafer jujubes pudding croissant jelly. Gingerbread chupa chups croissant bear claw tootsie roll lollipop cotton candy bear claw. Croissant sugar plum oat cake halvah chupa chups dessert. Jelly marshmallow dessert jelly sugar plum. Bonbon candy gummies sweet gummi bears marshmallow danish cookie tiramisu. Donut donut candy icing bear claw candy chocolate cake jelly beans. Pastry wafer croissant jelly jelly-o sugar plum.</p>
+        </div>
+
+<!---------------------------------------whole container----------------------------------------->
+    
+<div id="wholeContainer"> 
+
+    <!-------------------->
+    
+    <!--left-side-->
+    
+    <!-------------------->
+        <div id="leftContainer" >
+
+            <h3>Achat de passe pour la conférence</h3>
+            <h5>99$/PLACE</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo suscipit at eos amet tenetur ea ut illo dolore exercitationem, provident magni incidunt adipisci totam voluptate quae laboriosam voluptatibus porro. Dignissimos</p>
+            <p id="Bienvenue">Bienvenue !</p>
+            <ul>
+                <li>Curabitur pretium tincidunt lacus. </li>
+                <li>Curabitur pretium tincidunt lacus. </li>
+                <li>Curabitur pretium tincidunt lacus.</li>
+                <li>Curabitur pretium tincidunt lacus.</li>
+                <li>Curabitur pretium tincidunt lacus.</li>
+            </ul>
+
+        </div>
+    
+    <!-------------------->
+    
+    <!-- right-side-->
+    
+    <!-------------------->
+    <div class="rightContainer">
+
+        <!------------Nom------------>
+
+        <div id = "spaceForTextBox1"></div>
+        <input  type="checkbox" value ='Nom' id ="nomCheckbox">
+        <label class="labels_left_cell" id = "spaceForTextBox1" >Nom</label> 
+        <div id = "spaceForTextBox1"></div>
+        <input id="nomInput" type="text" placeholder="Nom complet">
+        <p class="nom-error error-message"></p>
+
+        <!---------Numéro de Téléphone------------>
+
+        <input  type="radio" value = 'Numéro de Téléphone' id ="telephoneCheckbox">
+        <label class="labels_left_cell">Numéro de Téléphone</label> 
+        <div id = "spaceForTextBox1"></div>
+        <input  id="telephoneInput" type="text" placeholder="+1(XXX)XXX XXXX">
+        <div id = "spaceForTextBox1"></div>
+        <p class="telephone-error error-message"></p>
+
+        <!------------Courriel------------>
+        
+        <input  type="checkbox" value = 'Courriel' id ="courrielCheckbox" >
+        <label class="labels_left_cell">Courriel</label> 
+         <div id = "spaceForTextBox1"></div>
+        <input id="courrielInput" type="text" placeholder="Addresse courriel">
+        <p class="courriel-error error-message"></p>
+
+        <!------------Nombre de places------------>
+
+        <input  type="radio" id="placesCheckbox" >
+        <label class="labels_left_cell">Nombre de places</label> 
+        <div id = "spaceForTextBox1"></div> 
+        <select id="placesSelect">
+          
+            <optgroup>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </optgroup>
+        </select>
+         <div id = "spaceForTextBox1"></div>
+
+        <!------------Commentaire------------>
+
+        <input  type="checkbox" value='Commentaire' id ="commentaireCheckbox">
+        <label id ="commentaires">Commentaire</label> 
+         <div id = "spaceForTextBox1"></div>
+        <textarea  id="commentaireTextarea" cols="30" rows="4"> </textarea>
+         <p class="commentaire-error error-message"></p>
+        <input id="acheter" type="submit" style=" border-radius: 5px;" value="Acheter" formaction=""> 
+        
+    </div>
+</div>
+
+<!-----------separateurDeContenu et script------------->
+
+<div class="separateurDeContenu"></div>
+
+<script src = "inscription.js"></script>
+
+
+<!-------------------->
+
+<!--pied de page-->
+
+<!-------------------->
+
+        <div class="piedDePage" >
+            <div> 
+                <div class="greenTextPiedDePage" >©Nouvelle Conférence</div>
+            </div>
+
+
+            <div class="whiteTextBox" >
+                <div><a href="Page d'accueil.html" class="liensPiedDePage">Accueil</a></div>
+                <div><a href="conférenciers.html" class="liensPiedDePage">Conférenciers</a></div>  
+                <div><a href="programme.html" class="liensPiedDePage">Programme</a></div>
+                <div><a href="Venue.html" class="liensPiedDePage">Venue</a></div>
+                <div><a href="Inscription.html" class="liensPiedDePage">Inscription</a></div>  
+            </div>
+
+         </div>
+
+        
+</body>
+</html>
