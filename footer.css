@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.piedDePageContainer {
+display:flex;
+background-color: rgb(30, 60, 85);
+height: 30px;
+padding: 10px;
+align-items: flex-end;
+justify-content: space-between;
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 20px
+ }
+
+ .greenTextPiedDePage{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: small;
+    padding-top: 50px;
+    width:200px;
+    margin-left: 400px; /* Push the element to the right edge */
+ 
+}
+
+ .whiteTextBoxPiedDePage{
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    color:white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: small;
+    margin-right:350px;
+ }
