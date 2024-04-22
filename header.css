@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, you must have font-family:roboto and add a font-weight*/
+
+/*-----------------Container entete------------------------------*/
+
+#headerBackgroundEnTete{
+background-color: rgb(46,63,81); 
+display:flex;
+justify-content: center;
+gap:20%;
+align-items: flex-end;
+margin: 0;
+padding: 0;
+height:20%;
+
+}
+
+  /*-----------------right section------------------------------*/
+
+.headerBigText2{
+font-size: 40px;
+color:white;
+font-family: "Roboto";
+margin-top: 0;
+margin-bottom: 0;
+font-weight: 100 ;
+}
+
+.headerBigText1{
+width:100px;
+display:flex;
+flex-wrap: wrap;
+font-size: 40px;
+color:white;
+font-family: "Roboto";
+line-height: 1.0;
+font-weight: 100 ;
+padding-bottom: 20px;
+}
+
+
+/*-----------------left section------------------------------*/
+
+.headerTopGreen{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: right;
+    padding-top:18px;
+    margin-bottom:10px;
+}
+
+.headerRightSection{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left:40px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.headerWhiteTopContainer{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 600;
+    color:white;
+
+   
+}
+.headerSpaceWhiteText{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    
+}
+
+/*-----------------links------------------------------*/
+
+a{
+    text-decoration: none;
+    color: rgb(113, 150, 113);
+}
+
+a:visited{
+    color: lightcoral;
+}
+
+a:hover{
+    color:green;
+}
+
+a.lienTitre{
+    color:white;
+}
+
+a.lienTitre:visited{
+    color: lightcoral;
+}
+
+a.lienTitre:hover{
+    color:green;
+}
