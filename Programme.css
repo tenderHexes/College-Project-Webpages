@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*the import allows the font-weight of roboto to be 300 for correct style*/
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
+body 
+{
+    background-color: #fff;
+    color: #4b4040;
+    margin: auto 0;
+    padding: auto 0;
+}
+
+#containerTop{
+    background: linear-gradient(to right, DarkSeaGreen, Lightyellow);
+    text-align: center;
+    color: gray;
+    height:220px;
+    font-family: roboto;
+    padding:20px;
+}
+
+
+section h1 
+{
+    font-size: 40px;
+    margin-top: 0;
+    color: rgb(113, 150, 113);
+    font-family: roboto;
+}
+
+p 
+{
+    font-size: 17px;
+    margin-left: 30px;
+
+}
+
+
+/* David Editz*/
+
+/* ---------------*/
+
+/* Flex*/
+
+/* ---------------*/
+.flex-column
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    padding: 10px;
+   
+}
+
+/* ---------------*/
+
+/* Titres*/
+
+/* ---------------*/
+
+/* Utiliser pour Titre Conference vert*/
+.titreMini-1-Conference{
+    color:rgb(113, 150, 113);
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 35px;
+    font-family: roboto;
+}
+
+/* Utiliser pour Titre Ateliers vert*/
+.titreMini-1-Ateliers{
+    color:rgb(113, 150, 113);
+    font-weight: bold;
+    padding-left: 105px;
+    padding-right:0px;
+    font-size: 35px;
+    font-family: roboto;
+}
+
+/* Temps*/
+.titreMini-2{
+    font-weight: 100;
+    padding-left: 105px;
+    padding-right: 17px;
+    font-family: roboto;
+}
+
+/* "Conferencier" dans les tables */
+.titreMini-3{
+    font-weight: bold;
+    color:rgb(113, 150, 113);
+    font-family: roboto;
+}
+
+/* ---------------*/
+
+/* Textes*/
+
+/* ---------------*/
+
+.texteGris{ /* Textes dans les boites*/
+    padding-top: 2px;
+    color:lightslategrey;
+    font-family: roboto;
+}
+/* ---------------*/
+
+/* Seperateurs*/
+
+/* ---------------*/
+
+.seperateur { /* Creation d'un seperateur*/
+    background-color: rgb(236, 236, 236);
+    padding: 2px;
+    margin-left:255px;
+    width: 82%;
+    
+}
+
+.invisbileSeperateur { /* Espace entre sections*/
+    background-color: rgb(255, 255, 255);
+    margin-top:40px;
+    margin-bottom: 40px;
+    margin-left:270px;
+    padding: 2px;
+}
+
+
+.espaceEntreDivs { /* Espace entre Conference dans boites 3 et 5*/
+    padding-left: 55px;
+}
+
+.dernierFlex{
+    display: flex;
+    padding: 10px;
+    padding-bottom:80px;
+}
