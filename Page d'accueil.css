@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*the import allows the font-weight of roboto to be 600 for correct style*/
+/* to use the import, ou must have font-family:roboto and add a font-weight*/
+
+body {
+    margin: 0;
+}
+
+.texteSection1 {
+    text-align: center;
+    font-family: roboto;
+}
+
+.partiNavBar {
+    background-color: rgb(46, 63, 81);
+    padding-left: 4em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    height: auto;
+}
+
+section div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Added */
+}
+
+img {
+    max-width: 100%; /* Changed */
+    height: auto; /* Changed */
+    max-height: 130px; /* Added */
+}
+
+.containerImages {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+h3 {
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+h5 {
+    color: gray;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.tailleimage {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-style: solid;
+    border-color: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.centxt {
+    font-family: roboto;
+    color: gray;
+    font-weight: 600;
+    font-size: small;
+}
+
+h2 {
+    color: rgb(103, 131, 137);
+}
+
+.parag1 {
+    color: white;
+}
+
+.buttonInscription {
+    padding: 15px 30px; /* Adjusted */
+    border-radius: 7px;
+    background-color: rgb(46, 63, 81);
+    border-color: white;
+    color: white;
+}
+
+.buttonInscription:hover {
+    color: green;
+}
+
+/* Small devices:Everything but header and footer*/
+@media only screen and (max-width: 650px) {
+    /* Centered and organized in columns"*/
+    .texteSection1{
+        display:column;
+    }
+    
+    .containerImages {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .buttonInscription {
+        padding: 15px 30px; /* Adjusted */
+        border-radius: 7px;
+        background-color: rgb(46, 63, 81);
+        border-color: white;
+        color: white;
+    }
+}
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Header */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+.headerBigText1{
+    width:100px;
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 40px;
+    color:white;
+    font-family: "Roboto";
+    line-height: 1.0;
+    font-weight: 100 ;
+    padding-bottom: 20px;
+}
+
+.headerBackgroundEnTete{
+    background-color: rgb(46,63,81); 
+    display:flex;
+    justify-content: center;
+    gap:20%;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+   
+}
+
+.headerTopGreen{
+    color: rgb(113, 150, 113);
+    font-family: "Roboto";
+    font-weight: 600;
+    text-align: right;
+    padding-top:15px;
+    margin-bottom:10px;
+}
+.headerWhiteTop{
+    font-family: roboto;
+    font-size: 10px;
+    font-weight: 600;
+    color:white;
+
+   
+}
+.headerSection-2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-left:40px;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.headerSpace{
+    display:flex;
+    justify-content: space-evenly;
+    gap:10px;
+    
+}
+
+a.linksColorWhite{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: lightcoral;
+}
+
+a:hover{
+    color:green;
+}
+
+a.lienTitre{
+    color:white;
+}
+
+a.lienTitre:visited{
+    color: lightcoral;
+}
+
+a.lienTitre:hover{
+    color:green;
+}
+
+/*Header: Only for small devices*/
+@media only screen and (max-width: 650px) {
+    .headerBackgroundEnTete{
+        background-color: rgb(46,63,81); 
+        display:block;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: auto;
+
+    }
+
+    .headerSection-2{
+        display: flex;
+        flex-direction: column;
+        padding-left:0%;
+        text-align: center;
+        align-items:center;
+        font-size: 15px;
+    }
+
+    .headerWhiteTop{
+        font-size: 0.5em ;
+    }
+
+    .headerBigText1{
+        width:auto;
+        display: flex;
+        flex-direction: column; 
+        margin:0%;
+        padding:0%;
+        font-size: 2em;
+    }
+}
+
+/*Galaxy Fold- Smallest Phone*/
+@media only screen and (max-width: 300px) {
+    .partiNavBar {
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+
+
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Footer */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.piedDePage {
+    background-color: rgb(46,63,81); 
+    display:flex;
+    height: 80px;
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: space-evenly; 
+}
+
+.whiteTextBox{
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    color:white;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: small;
+    text-align: right;
+ }
+ 
+
+.greenTextPiedDePage{
+   color: rgb(113, 150, 113);
+   font-family: "Roboto";
+   font-weight: 300;
+   font-size: small;
+   padding-top: 50px;
+   width:200px;
+   text-align: left;
+
+}
+
+
+a.liensPiedDePage{
+   color:white;
+}
+
+a.liensPiedDePage:visited{
+   color: lightcoral;
+}
+
+a.liensPiedDePage:hover{
+   color: green;
+}
+
+/* Footer for small devices*/
+@media only screen and (max-width: 650px) {
+   
+
+    /*Take off Flex for links*/
+    .whiteTextBox{
+        margin:2%;
+        font-size: 0.75em;
+        width: 96%;
+        justify-content: space-evenly;
+        gap:0%;   
+        color: white;
+    }
+    
+    /* Make it move towards middle*/
+
+    .greenTextPiedDePage{
+        width: 100%;
+        font-size: 0.75em;
+        padding-top: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+
+    #responsiviteGreenTextPiedDePage{
+        padding-left:2%;
+        padding-right:2%;
+       
+      
+    }
+    
+    .piedDePage{
+        display:block;
+        padding: 5%;
+        bottom:0;
+        position:static;
+        padding-top:12%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    /*Take off Flex for links*/
+    .whiteTextBox{
+        font-size: 0.6em;
+        gap:0%;
+        display: flex;
+        justify-content: space-evenly;
+        width:96%;
+        margin: 2%;
+        color: white;
+    }
+    
+    /* Make it move towards middle*/
+    .greenTextPiedDePage{
+        width: 100%;
+        font-size: 0.6em;
+        padding-left: 0%;
+        padding-top:0%;
+    }
+
+    #responsiviteGreenTextPiedDePage{
+        padding-left:2%;
+        padding-right:2%;
+        height: 50%;
+        justify-content:center;
+    }
+    
+    .piedDePage{
+        
+        display:block;
+        padding: 2%;
+        bottom:0;
+        position:static;
+    }
+
+}
