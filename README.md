@@ -1,1 +1,1 @@
-Welcome, this repositery contains the webpages for a conference that was created for a school project. 
+Welcome, this repositery contains the webpages that were created for a school project. 
