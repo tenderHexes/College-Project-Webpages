@@ -77,9 +77,9 @@ padding-bottom: 20px;
 
 /*-----------------links------------------------------*/
 
-a{
+a.linksColorWhite{
     text-decoration: none;
-    color: rgb(113, 150, 113);
+    color:white;
 }
 
 a:visited{
